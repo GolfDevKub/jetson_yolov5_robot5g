@@ -1,0 +1,1 @@
+https://jetsonhacks.com/2019/09/17/jetson-nano-run-from-usb-drive/

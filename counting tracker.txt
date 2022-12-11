@@ -1,0 +1,5 @@
+https://github.com/aischool2021/YOLO-and-SSD-Person-Tracker-ID-with-time-tracking/blob/main/tf_mobilenet_ssd_perosn_tracker_id.py
+https://github.com/sfbsoft/person_counter/blob/master/tf_demo.py
+https://github.com/BakingBrains/People_counting_basic/blob/main/counting_people.py
+
+https://www.analyticsvidhya.com/blog/2021/11/complete-guide-to-people-counting-and-tracking-end-to-end-deep-learning-project/
