@@ -5,8 +5,6 @@ cd yolov5
 pip install -r requirements.txt  # install
 ```
 
-</details>
-
 <details open>
 <summary>Inference</summary>
 
@@ -32,30 +30,4 @@ results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
 
 </details>
 
-
-
-<details>
-<summary>Inference with detect.py</summary>
-
-`detect.py` runs inference on a variety of sources, downloading [models](https://github.com/ultralytics/yolov5/tree/master/models) automatically from
-the latest YOLOv5 [release](https://github.com/ultralytics/yolov5/releases) and saving results to `runs/detect`.
-
-```bash
-python detect.py --source 0  # webcam
-                          img.jpg  # image
-                          vid.mp4  # video
-                          path/  # directory
-                          path/*.jpg  # glob
-                          'https://youtu.be/Zgi9g1ksQHc'  # YouTube
-                          'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
-```
-
-
-```bash
-python train.py --data coco.yaml --cfg yolov5n.yaml --weights '' --batch-size 128
-                                       yolov5s                                64
-                                       yolov5m                                40
-                                       yolov5l                                24
-                                       yolov5x                                16
-``
 
